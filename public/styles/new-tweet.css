@@ -30,3 +30,11 @@
 .new-tweet > form > span{
   margin-left: 320px;
 }
+
+.new-tweet > form > p{
+  text-align: center;
+  background-color: lightgrey;
+  border-radius: 15px;
+  border: 2px solid red;
+}
+

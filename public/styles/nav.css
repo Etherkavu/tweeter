@@ -1,23 +1,39 @@
 #nav-bar{
-  /*position: fixed;*/
+  top: 0px;
+  position: fixed;
   padding-left: 2em;
   padding-right: 2em;
   height: 80px;
   width: 100%;
   background: #00a087;
+  z-index: 3;
 
 }
 
 #nav-bar .logo{
+  position: fixed;
   width: 80px;
   height: 80px;
   margin-right: 10px;
+  z-index: 3;
 }
 
 #nav-bar .header{
+  padding-left: 90px;
   position: fixed;
   line-height: 225%;
   height: 80px;
   font-size: 200%;
   color: #e8fdff;
+  z-index: 3;
+}
+
+#nav-bar .buttonScroll{
+  float: right;
+  height: 50px;
+  width: 150px;
+  background-color: #afefdd;
+  border-color: black;
+  border-radius: 15px;
+  margin-top: 15px;
 }

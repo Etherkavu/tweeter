@@ -15,7 +15,7 @@ html {
  */
 
 body {
-  margin: 0;
+  margin: 0
   color: #244751;
   background-color: #eee;
   font-family: 'Roboto Condensed', sans-serif;
@@ -23,13 +23,86 @@ body {
 
 main {
   background-color: white;
-  width: 450px;
+  max-width: 450px;
   height: 100%;
-  margin-left: 33%;
-  margin-right: 33%;
-  position: absolute;
+  margin-top:100px;
+  padding-top: 1px;
   padding-right: 12px;
   padding-left: 12px;
+  overflow-wrap: break-word;
+}
+
+.wrapper {
+  max-width: 450px;
+  margin: auto;
+}
+
+.tweet {
+  margin-top: 10px;
+  border-radius: 15px;
+  border: 2px solid lightgrey;
+}
+
+.tweet header{
+  padding-top: 10px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  background-color: #eee  ;
+}
+
+.tweet header img{
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.tweet header p{
+  position: inherit;
+  margin-left: 10px;
+  vertical-align: top;
+  display: inline-block;
+  top: 20px;
+  left: 70px;
+}
+
+.tweet header p2{
+  position: inherit;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 15px;
+  margin-right: 8px;
+  float: right;
+}
+
+.tweet p{
+  margin-left: 10px;
+}
+
+.tweet footer p{
+
+  font-size: 75%;
+  display: inline-block;
+}
+
+
+.tweet footer span {
+  display: none;
+  position: inherit;
+  vertical-align: middle;
+  margin-right: 10px;
+  padding-top: 10px;
+  float: right;
+
+}
+
+.tweet footer span img{
+  width: 18px;
+  height: 18px;
+}
+
+
+.tweet footer{
+  border-top: 2px solid lightgrey;
 }
 
 /*
