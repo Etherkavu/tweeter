@@ -35,6 +35,7 @@ $(document).ready(function() {
       url: '/tweets',
       method: 'GET',
       success: function (tweets) {
+        console.log("suc1");
         $('#tweets-container').append(createTweetElement(tweets));
         $('article').hover(
           function(){
@@ -70,10 +71,12 @@ $(document).ready(function() {
       $.post('/tweets', data).done(function() {
         $('textarea').val('');
         $('.counter').text(140);
+        console.log("suc1.5");
         $.ajax({
           url: '/tweets',
           method: 'GET',
           success: function (tweets) {
+            console.log("suc2");
             $('.datafield').remove();
             $('#tweets-container').append(createTweetElement(tweets));
             $('article').hover(
