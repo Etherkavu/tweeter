@@ -15,3 +15,10 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+- Mongodb2.2
+
+## Product in action
+
+!["Screenshot of Tweet Input window"](https://github.com/Etherkavu/tweeter/blob/master/docs/tweeter_shown.png?raw=true)
+
+!["Screenshot of Tweet input window hidden"](https://github.com/Etherkavu/tweeter/blob/master/docs/tweeter_hidden.png?raw=true)
